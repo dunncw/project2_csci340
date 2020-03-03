@@ -1,0 +1,11 @@
+how to use the paging sim
+
+cmdline entry:
+    ./paging_sim <seed> <comp_mem_sz> <page_sz> <number_of_jobs> <min_run_tiem> <max_run_time> <min_mem> <max_mem>
+
+    <seed> - this simply setsthe seed for the random numbers generated so that you can get teh same number on multiple runs 
+    <comp_mem_sz> - this is the size of comp mem that will be allocated in hte sim for the process to run on
+    <page_sz> - this is the size of a page
+    <number_of_jobs> - this is the number of jobs the sim will run
+    <min_run_tiem>, <max_run_time> - the range in which the run times for the jobs will be chosen from
+    <min_mem>, <max_mem> - the range in which the mem amount of the jobs will be chosen from
